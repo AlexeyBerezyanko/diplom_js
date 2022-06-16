@@ -10,12 +10,7 @@ function validateEmail(email) {
     let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());    
 }
-window.addUser = [
-    {
-        email: 'alex@mail.ru',
-        password: '11111'
-    }
-]
+
 
 form.onsubmit = function (event) {
     event.preventDefault();
@@ -57,32 +52,6 @@ form.onsubmit = function (event) {
         //     } else{
         //         button.disabled = false
         //     }
-        // }
-    
-
-    // let userInter = function(email){
-    //     let inputEmail = email.value;
-    //     if(window.addUser.find(user => user.email === inputEmail)){
-    //         return true
-    //     } else{
-    //         return false
-    //     }
-    // }
-
-    // let loginAcc = function(email, password){
-    //     if(userInter(email) === true){
-    //         let inputPass = password.value;
-    //         return Boolean(window.addUser.find(user => user.password === inputPass))
-    //     }
-    // }
-
-
-
-
-
-
-
-   
-   
+        // }   
    
 }
