@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+
+</head>
+<body>
+    <div class="page">
+        <form class="js-form" name="sign-up" action="" novalidate >           
+            <div class="form__group">Email
+                <input type="email" class="input js-input js-input-email new-email" name="new-email" placeholder="Email"  >
+                <div class="warning-email">Required to fill!</div>
+            </div>
+            <div class="form__group">Password
+                <input type="password" class="input js-input js-input-password new-password" name="new-password" placeholder="Password" >
+                <div class="warning-pass">Required to fill!</div>
+            </div> 
+            <div class="form__group">Confirm-password
+                <input type="password" class="input js-input js-input-password" name="confirm-password" placeholder="Password" >
+                <div class="warning-pass">Required to fill!</div>
+            </div>          
+            <button class="btn btnnot" name="sign-up-button" type="submit">
+                Submit form
+            </button> 
+            <div>
+                <a class="sign-in" href="../../index.html">Sign in</a>
+            </div>           
+        </form>
+    </div>
+    <script tupe="module" src="../js/signup.js"></script>
+</body>
+</html>
